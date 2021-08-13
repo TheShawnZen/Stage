@@ -42,4 +42,8 @@ class LoginController extends Controller
         Auth::logout();
         return view('index');
       }
+
+      public function login() {
+        return redirect('/login');
+      }
 }
