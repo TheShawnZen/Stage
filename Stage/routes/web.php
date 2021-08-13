@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [App\Http\Controllers\Auth\LoginController::class,'login']);
+Route::get('/', [App\Http\Controllers\Auth\LoginController::class,'loginpage']);
 
 Auth::routes();
 

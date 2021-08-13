@@ -43,7 +43,7 @@ class LoginController extends Controller
         return view('index');
       }
 
-      public function login() {
+      public function loginpage() {
         return redirect('/login');
       }
 }
