@@ -912,7 +912,7 @@
 
               <div class="info-box-content">
                 <span class="info-box-text">New Members</span>
-                <span class="info-box-number">{{ $graph->newMembers }}</span>
+                <span class="info-box-number">{{ $graph->new_members }}</span>
               </div>
               <!-- /.info-box-content -->
             </div>
@@ -1409,7 +1409,7 @@
 
                     @foreach($orders as $order)
                     <tr>
-                      <td><a href="pages/examples/invoice.html">{{ $order->orderId }}</a></td>
+                      <td><a href="pages/examples/invoice.html">{{ $order->order_id }}</a></td>
                       <td>{{ $order->item }}</td>
                       @if($order->status == "Shipped")
                         <td><span class="badge badge-success">Shipped</span></td>
