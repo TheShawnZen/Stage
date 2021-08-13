@@ -14,7 +14,7 @@ class CreateMonthRecapsTable extends Migration
     public function up()
     {
         Schema::create('month_recaps', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
             $table->timestamps();
             $table->double('revenue');
             $table->double('cost');

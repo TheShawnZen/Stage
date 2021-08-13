@@ -14,7 +14,7 @@ class CreateMonthSalesTable extends Migration
     public function up()
     {
         Schema::create('month_sales', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
             $table->timestamps();
             $table->integer('sales');
         });

@@ -14,7 +14,7 @@ class CreateGraphsTable extends Migration
     public function up()
     {
         Schema::create('graphs', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
             $table->integer('cpu');
             $table->integer('likes');
             $table->integer('sales');
