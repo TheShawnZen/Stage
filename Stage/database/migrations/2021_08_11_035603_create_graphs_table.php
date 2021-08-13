@@ -18,7 +18,7 @@ class CreateGraphsTable extends Migration
             $table->integer('cpu');
             $table->integer('likes');
             $table->integer('sales');
-            $table->integer('newMembers');
+            $table->integer('new_members');
         });
     }
 

@@ -60,7 +60,7 @@ CREATE TABLE IF NOT EXISTS `graphs` (
 -- Déchargement des données de la table `graphs`
 --
 
-INSERT INTO `graphs` (`id`, `cpu`, `likes`, `sales`, `newMembers`) VALUES
+INSERT INTO `graphs` (`id`, `cpu`, `likes`, `sales`, `new_members`) VALUES
 (1, 99, 3000, 999, 1);
 
 -- --------------------------------------------------------
